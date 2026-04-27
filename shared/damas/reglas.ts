@@ -1,4 +1,4 @@
-import type { ColorFicha, Coordenadas, EstadoPartida, Movimiento, Pieza } from './tipos'
+import type { ColorFicha, Coordenadas, EstadoPartida, Movimiento, Pieza } from './tipos.js'
 
 const TAM = 8
 

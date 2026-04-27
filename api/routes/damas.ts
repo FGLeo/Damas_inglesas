@@ -1,5 +1,5 @@
 import { Router } from 'express'
-import { postMoverBot, postMoverHumano, postNuevaPartida } from '../controllers/damasController'
+import { postMoverBot, postMoverHumano, postNuevaPartida } from '../controllers/damasController.js'
 
 const router = Router()
 

@@ -1,6 +1,6 @@
 import type { Request, Response } from 'express'
-import type { ConfiguracionPartida, Movimiento } from '../../shared/damas/tipos'
-import { crearPartida, moverBot, moverHumano } from '../services/partidaServicio'
+import type { ConfiguracionPartida, Movimiento } from '../../shared/damas/tipos.js'
+import { crearPartida, moverBot, moverHumano } from '../services/partidaServicio.js'
 
 const esColor = (v: unknown): v is ConfiguracionPartida['colorHumano'] => v === 'rojas' || v === 'blancas'
 const esDificultad = (v: unknown): v is ConfiguracionPartida['dificultad'] => v === 'facil' || v === 'media' || v === 'dificil'

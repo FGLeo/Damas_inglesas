@@ -1,8 +1,8 @@
 import crypto from 'crypto'
-import type { ConfiguracionPartida, MotivoFinPartida, Movimiento } from '../../shared/damas/tipos'
-import { aplicarMovimiento, crearEstadoInicial, obtenerColorOpuesto } from '../../shared/damas/reglas'
-import { elegirMovimientoBot } from '../engine/bot/minimaxAlphaBeta'
-import { actualizarEstado, guardarPartida, obtenerPartida } from '../store/almacenPartidas'
+import type { ConfiguracionPartida, MotivoFinPartida, Movimiento } from '../../shared/damas/tipos.js'
+import { aplicarMovimiento, crearEstadoInicial, obtenerColorOpuesto } from '../../shared/damas/reglas.js'
+import { elegirMovimientoBot } from '../engine/bot/minimaxAlphaBeta.js'
+import { actualizarEstado, guardarPartida, obtenerPartida } from '../store/almacenPartidas.js'
 
 export const crearPartida = (configuracion: ConfiguracionPartida) => {
   const id = crypto.randomUUID()

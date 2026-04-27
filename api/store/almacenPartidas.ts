@@ -1,4 +1,4 @@
-import type { ConfiguracionPartida, EstadoPartida } from '../../shared/damas/tipos'
+import type { ConfiguracionPartida, EstadoPartida } from '../../shared/damas/tipos.js'
 
 export type PartidaGuardada = {
   id: string

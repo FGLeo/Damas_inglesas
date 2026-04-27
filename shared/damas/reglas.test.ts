@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
-import type { EstadoPartida } from './tipos'
-import { aplicarMovimiento, crearEstadoInicial, obtenerMovimientosLegales } from './reglas'
+import type { EstadoPartida } from './tipos.js'
+import { aplicarMovimiento, crearEstadoInicial, obtenerMovimientosLegales } from './reglas.js'
 
 const tableroVacio = () => Array.from({ length: 8 }, () => Array.from({ length: 8 }, () => null))
 

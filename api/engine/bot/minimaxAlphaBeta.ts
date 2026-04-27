@@ -1,5 +1,5 @@
-import type { ColorFicha, EstadoPartida, Movimiento } from '../../../shared/damas/tipos'
-import { aplicarMovimiento, obtenerColorOpuesto, obtenerMovimientosLegales } from '../../../shared/damas/reglas'
+import type { ColorFicha, EstadoPartida, Movimiento } from '../../../shared/damas/tipos.js'
+import { aplicarMovimiento, obtenerColorOpuesto, obtenerMovimientosLegales } from '../../../shared/damas/reglas.js'
 
 export type EstadisticasBot = {
   profundidad: number
